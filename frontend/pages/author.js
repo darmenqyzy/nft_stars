@@ -3,8 +3,7 @@ import React, { useState, useEffect } from "react";
 //INTERNAL IMPORT
 import Style from "../styles/author.module.css";
 import { Banner, NFTCardTwo } from "../collectionPage/collectionIndex";
-import { Brand, Title } from "../components/componentsindex";
-import FollowerTabCard from "../components/FollowerTab/FollowerTabCard/FollowerTabCard";
+import { Title } from "../components/componentsindex";
 import images from "../img";
 import {
   AuthorProfileCard,
@@ -48,7 +47,6 @@ const author = () => {
 
   return (
     <div className={Style.author}>
-      <Banner bannerImage={images.creatorbackground2} />
       <AuthorProfileCard />
       <AuthorTaps
         setCollectiables={setCollectiables}
@@ -70,13 +68,8 @@ const author = () => {
         paragraph="Click on music icon and enjoy NTF music or audio
 "
       />
-      <div className={Style.author_box}>
-        {followerArray.map((el, i) => (
-          <FollowerTabCard i={i} el={el} />
-        ))}
-      </div>
 
-      <Brand />
+
     </div>
   );
 };

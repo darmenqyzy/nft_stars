@@ -43,8 +43,8 @@ const NFTCardTwo = ({ NFTData }) => {
             <Image
               src={el}
               alt="NFT"
-              width={500}
-              height={500}
+              width={300}
+              height={300}
               objectFit="cover"
               className={Style.NFTCardTwo_box_img_img}
             />
@@ -60,7 +60,6 @@ const NFTCardTwo = ({ NFTData }) => {
 
           <div className={Style.NFTCardTwo_box_price}>
             <div className={Style.NFTCardTwo_box_price_box}>
-              <small>Current Bid</small>
               <p>1{i + 5}.000 ETH</p>
             </div>
             <p className={Style.NFTCardTwo_box_price_stock}>

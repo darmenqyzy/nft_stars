@@ -11,7 +11,7 @@ const signUp = () => {
         <h1>SignUp</h1>
         <LoginAndSignUp />
         <p className={Style.login_box_para}>
-          New user? <a href="#">Create an account</a>
+          Already have an account? <a href="/login">Log in.</a>
         </p>
       </div>
     </div>

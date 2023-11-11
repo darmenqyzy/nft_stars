@@ -8,21 +8,16 @@ const HelpCenter = () => {
   const helpCenter = [
     {
       name: "About",
-      link: "about",
-    },
-    {
-      name: "Contact Us",
-      link: "contact-us",
+      link: "aboutus",
     },
     {
       name: "Sign Up",
-      link: "sign-up",
+      link: "signUp",
     },
     {
-      name: "Sign In",
-      link: "sign-in",
+      name: "LogIn",
+      link: "login",
     },
-
   ];
   return (
     <div className={Style.box}>

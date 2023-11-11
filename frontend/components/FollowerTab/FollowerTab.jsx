@@ -144,9 +144,6 @@ const FollowerTab = () => {
             <button onClick={() => openFollower()}>
               <RiUserFollowFill /> Following
             </button>
-            <button onClick={() => openNews()}>
-              <RiAwardLine /> NoteWorthy
-            </button>
           </div>
         </div>
       </div>

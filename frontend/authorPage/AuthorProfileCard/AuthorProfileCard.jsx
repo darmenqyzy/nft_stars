@@ -71,7 +71,7 @@ const AuthorProfileCard = () => {
           </h2>
 
           <div className={Style.AuthorProfileCard_box_info_address}>
-            <input
+            <input style={{color: "white"}}
               type="text"
               value="0x829BD824B03D092293333..A830"
               id="myInput"
@@ -87,20 +87,6 @@ const AuthorProfileCard = () => {
             Contributing to @ether_cards, an NFT Monetization Platform.
           </p>
 
-          <div className={Style.AuthorProfileCard_box_info_social}>
-            <a href="#">
-              <TiSocialFacebook />
-            </a>
-            <a href="#">
-              <TiSocialInstagram />
-            </a>
-            <a href="#">
-              <TiSocialLinkedin />
-            </a>
-            <a href="#">
-              <TiSocialYoutube />
-            </a>
-          </div>
         </div>
 
         <div className={Style.AuthorProfileCard_box_share}>

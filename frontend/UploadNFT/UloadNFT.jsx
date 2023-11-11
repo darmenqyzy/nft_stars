@@ -70,6 +70,7 @@ const UloadNFT = () => {
           <label htmlFor="nft">Item Name</label>
           <input
             type="text"
+            style={{color: "white"}}
             placeholder="shoaib bhai"
             className={formStyle.Form_box_input_userName}
             onChange={(e) => setItemName(e.target.value)}
@@ -85,6 +86,7 @@ const UloadNFT = () => {
 
             <input
               type="text"
+              style={{color: "white"}}
               placeholder="website"
               onChange={(e) => setWebsite(e.target.value)}
             />
@@ -104,7 +106,8 @@ const UloadNFT = () => {
             id=""
             cols="30"
             rows="6"
-            placeholder="something about yourself in few words"
+            placeholder="Something about nft"
+            style={{color: "white"}}
             onChange={(e) => setDescription(e.target.value)}
           ></textarea>
           <p>
@@ -157,6 +160,7 @@ const UloadNFT = () => {
               </div>
               <input
                 type="text"
+                style={{color: "white"}}
                 placeholder="20%"
                 onChange={(e) => setRoyalties(e.target.value)}
               />
@@ -171,6 +175,7 @@ const UloadNFT = () => {
               <input
                 type="text"
                 placeholder="165MB"
+                style={{color: "white"}}
                 onChange={(e) => setFileSize(e.target.value)}
               />
             </div>
@@ -183,6 +188,7 @@ const UloadNFT = () => {
               </div>
               <input
                 type="text"
+                style={{color: "white"}}
                 placeholder="Propertie"
                 onChange={(e) => setProperties(e.target.value)}
               />

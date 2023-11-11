@@ -20,6 +20,7 @@ const Form = () => {
             <label htmlFor="name">Username</label>
             <input
               type="text"
+              style={{color: "white"}}
               placeholder="shoaib bhai"
               className={Style.Form_box_input_userName}
             />
@@ -31,7 +32,7 @@ const Form = () => {
               <div className={Style.Form_box_input_box_icon}>
                 <HiOutlineMail />
               </div>
-              <input type="text" placeholder="Email*" />
+              <input type="text" style={{color: "white"}} placeholder="Email*" />
             </div>
           </div>
 
@@ -42,6 +43,7 @@ const Form = () => {
               id=""
               cols="30"
               rows="6"
+              style={{color: "white"}}
               placeholder="something about yourself in few words"
             ></textarea>
           </div>
@@ -53,7 +55,7 @@ const Form = () => {
                 <MdOutlineHttp />
               </div>
 
-              <input type="text" placeholder="website" />
+              <input  style={{color: "white"}} type="text" placeholder="website" />
             </div>
           </div>
 
@@ -64,7 +66,9 @@ const Form = () => {
                 <div className={Style.Form_box_input_box_icon}>
                   <TiSocialFacebook />
                 </div>
-                <input type="text" placeholder="http://shoaib" />
+                <input type="text"
+                                style={{color: "white"}}
+                                placeholder="http://shoaib" />
               </div>
             </div>
             <div className={Style.Form_box_input}>
@@ -73,7 +77,9 @@ const Form = () => {
                 <div className={Style.Form_box_input_box_icon}>
                   <TiSocialTwitter />
                 </div>
-                <input type="text" placeholder="http://shoaib" />
+                <input type="text" 
+                                style={{color: "white"}}
+                                placeholder="http://shoaib" />
               </div>
             </div>
             <div className={Style.Form_box_input}>
@@ -82,7 +88,9 @@ const Form = () => {
                 <div className={Style.Form_box_input_box_icon}>
                   <TiSocialInstagram />
                 </div>
-                <input type="text" placeholder="http://shoaib" />
+                <input type="text"
+                                style={{color: "white"}}
+                                placeholder="http://shoaib" />
               </div>
             </div>
           </div>
@@ -95,6 +103,7 @@ const Form = () => {
               </div>
               <input
                 type="text"
+                style={{color: "white"}}
                 placeholder="0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8"
               />
               <div className={Style.Form_box_input_box_icon}>

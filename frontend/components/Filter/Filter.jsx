@@ -95,33 +95,6 @@ const Filter = () => {
               {image ? <AiFillCloseCircle /> : <TiTick />}
             </div>
           </div>
-
-          <div className={Style.filter_box_items_box}>
-            <div
-              className={Style.filter_box_items_box_item_trans}
-              onClick={() => openVideo()}
-            >
-              <FaVideo /> <small>Videos</small>
-              {video ? <AiFillCloseCircle /> : <TiTick />}
-            </div>
-          </div>
-
-          <div className={Style.filter_box_items_box}>
-            <div
-              className={Style.filter_box_items_box_item_trans}
-              onClick={() => openMusic()}
-            >
-              <FaMusic /> <small>Musics</small>
-              {music ? <AiFillCloseCircle /> : <TiTick />}
-            </div>
-          </div>
-
-          <div className={Style.filter_box_items_box}>
-            <div className={Style.filter_box_items_box_item}>
-              <FaUserAlt /> <span>Verified</span>
-              <MdVerified />
-            </div>
-          </div>
         </div>
       )}
     </div>

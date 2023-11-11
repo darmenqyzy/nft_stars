@@ -74,9 +74,9 @@ const Navbar = () => {
         <div className={Style.navbar_container_left}>
           <div className={Style.logo}>
             <Image
-              src={images.logo-light}
+              src={images.logo}
               alt="NFT MARKET PLACE"
-              width={100}
+              width={200}
               height={100}              />
           </div>
           <div className={Style.navbar_container_left_box_input}>
@@ -107,15 +107,6 @@ const Navbar = () => {
                 <HelpCenter />
               </div>
             )}
-          </div>
-
-          {/* NOTIFICATION */}
-          <div className={Style.navbar_container_right_notify}>
-            <MdNotifications
-              className={Style.notify}
-              onClick={() => openNotification()}
-            />
-            {notification && <Notification />}
           </div>
 
           {/* CREATE BUTTON SECTION */}
