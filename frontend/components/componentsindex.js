@@ -5,7 +5,6 @@ import HeroSection from "./HeroSection/HeroSection";
 
 import Category from "./Category/Category";
 import Collection from "./Collection/Collection";
-import FollowerTab from "./FollowerTab/FollowerTab";
 import Subscribe from "./Subscribe/Subscribe";
 import Title from "./Title/Title";
 import NFTCard from "./NFTCard/NFTCard";
@@ -20,7 +19,6 @@ export {
   HeroSection,
   Category,
   Collection,
-  FollowerTab,
   Subscribe,
   Title,
   NFTCard,

@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Style from "./AuthorNFTCardBox.module.css";
 import images from "../../img";
 import { NFTCardTwo } from "../../collectionPage/collectionIndex";
-import FollowerTabCard from "../../components/FollowerTab/FollowerTabCard/FollowerTabCard";
 
 const AuthorNFTCardBox = ({
   collectiables,
@@ -95,16 +94,12 @@ const AuthorNFTCardBox = ({
       {like && <NFTCardTwo NFTData={likeArray} />}
       {follower && (
         <div className={Style.AuthorNFTCardBox_box}>
-          {followerArray.map((el, i) => (
-            <FollowerTabCard i={i} el={el} />
-          ))}
+
         </div>
       )}
       {following && (
         <div className={Style.AuthorNFTCardBox_box}>
-          {followingArray.map((el, i) => (
-            <FollowerTabCard i={i} el={el} />
-          ))}
+
         </div>
       )}
     </div>

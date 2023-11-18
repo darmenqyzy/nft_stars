@@ -18,9 +18,6 @@ const uploadNFT = () => {
 
         <div className={Style.uploadNFT_box_title}>
           <h2>Image</h2>
-          <p>
-            File types supported: JPG, PNG, GIF, SVG. Max size: 100 MB
-          </p>
         </div>
 
         <div className={Style.uploadNFT_box_form}>

@@ -6,7 +6,7 @@ import Style from "./Button.module.css";
 const Button = ({ btnName, handleClick }) => {
   return (
     <div className={Style.box}>
-      <button className={Style.button} onClick={() => handleClick()}>
+      <button className={Style.button} >
         {btnName}
       </button>
     </div>

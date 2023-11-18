@@ -92,6 +92,11 @@
 .navbar_container_right_profile_box{
     position: relative;
     cursor: pointer;
+    left: 50px;
+}
+.navbar_container_right_profile_box_button{
+    background-color: blue;
+
 }
 
 .navbar_container_right_profile{
